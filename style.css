@@ -137,8 +137,8 @@ body {
 .showcase-area {
   height: 100vh;
    background: linear-gradient(
-    rgba(240, 240, 240, 0.071),
-    rgba(241, 240, 240, 0.332)
+    rgba(240, 240, 240, 0.084),
+    rgba(241, 240, 240, 0.077)
   ),
   url("images/back1.jpg");
   background-size: cover;
@@ -244,6 +244,7 @@ body {
   font-weight: 400;
   color: #fff;
   font-family: cursive;
+  padding:none;
 }
 
 .course-menu-container {
@@ -267,7 +268,8 @@ body {
 .course-menu-item {
   display:flex;
   flex: 1 1 600px;
-  border:1px solid rgba(253, 251, 251, 0.532) ;
+  /* border:1px solid rgba(253, 251, 251, 0.532) ; */
+  border: 2px solid #deb887;
   border-radius: 10px;
   justify-content: space-evenly;
   margin-bottom: 3rem;
@@ -570,3 +572,74 @@ footer {
   }
 }
 }
+
+/* ------------------------login---------------------------- */
+form{
+  background-color: #0c95e44d;
+  width: 450px;
+  padding: 20px 20px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  border: 2px solid #deb887;
+  border-radius: 30px;
+  box-shadow: 20px 20px 30px rgba(0,0,0);
+}
+.signup{
+  text-align: center;
+  color: #16a083;
+  font-family: cursive;
+}
+label{
+  font-weight: 500;
+  color: #fafafc;
+  font-size: 20px;
+  font-family: cursive;
+}
+.box{
+  background: transparent;
+ border: 2px solid #deb887;
+}
+input{
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 12px;
+  border-radius: 5px;
+  outline: none;
+  color: #0df00d;
+}
+#password{
+  margin-bottom: 10px;
+}
+input[type="password"]{
+  border: 2px solid #deb887;
+}
+input[type="submit"]{
+  background-color: #de37ff;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+p{
+  font-size: 15px;
+  margin: 15px 0;
+  display: inline-block;
+  color: #fcf9f9;
+  padding: 5px 20px;
+}
+a{
+  text-decoration: none;
+  
+}
+.atn{
+  color: rgb(8, 175, 217);
+  font-size: 20px;
+}
+
+
